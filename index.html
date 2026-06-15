@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
+    <header>
+        <h1>My Blog Website</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main id="home">
+
+        <div class="blog-container" id="blog">
+
+            <article>
+                <h2>First Blog Post</h2>
+                <p>
+                    Technology continues to evolve and change the way people
+                    communicate, learn, and work every day.
+                </p>
+                <p>
+                    Staying updated with new tools and trends can help improve
+                    productivity and create new opportunities.
+                </p>
+            </article>
+
+            <article>
+                <h2>Second Blog Post</h2>
+                <p>
+                    Web development combines creativity and technical skills to
+                    build engaging and functional websites.
+                </p>
+                <p>
+                    Learning HTML and CSS provides a strong foundation for
+                    creating responsive and accessible web pages.
+                </p>
+            </article>
+
+        </div>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Student ID: YOUR-STUDENT-ID &copy; 2026</p>
+    </footer>
+
+</body>
+</html>
